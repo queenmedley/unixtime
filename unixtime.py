@@ -9,8 +9,6 @@ print('unix time is',days,hours,minute,secs)
 base_year=1970
 d=int(days)
 
-print('All day is',d)
-
 while d>365 :
     if base_year%4==0:
         d=d-366
